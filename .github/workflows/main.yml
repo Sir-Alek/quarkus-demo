@@ -33,7 +33,7 @@ jobs:
       uses: sonarsource/sonarcloud-github-action@master
       with:
         args: >
-          -Dsonar.projectKey=sir-alek_quarkus-demo
+          -Dsonar.projectKey=Sir-Alek_quarkus-demo
           -Dsonar.organization=sir-alek
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=${{ secrets.SONAR_TOKEN }}
